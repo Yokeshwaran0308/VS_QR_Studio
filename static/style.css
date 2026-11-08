@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #16002b, #5900a8);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #ff4fd8;
+}
+
+input, select, button {
+    display: block;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #ff36bd;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #a900ff;
+}
+
+#result {
+    margin-top: 25px;
+}

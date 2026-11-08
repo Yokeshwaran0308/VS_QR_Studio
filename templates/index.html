@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VS QR Studio</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <h1>VS QR STUDIO</h1>
+    <p>Create your own QR Code</p>
+
+    <input id="text" placeholder="Enter text or URL">
+
+    <select id="mode">
+        <option value="standard">Standard QR</option>
+        <option value="brand">Branded QR</option>
+    </select>
+
+    <input type="file" id="logo" accept="image/*">
+
+    <label>QR Colour</label>
+    <input type="color" id="dark" value="#000000">
+
+    <label>Background Colour</label>
+    <input type="color" id="light" value="#ffffff">
+
+    <select id="size">
+        <option value="300">300 × 300</option>
+        <option value="500">500 × 500</option>
+        <option value="800">800 × 800</option>
+    </select>
+
+    <button onclick="generateQR()">Generate QR</button>
+
+    <div id="result"></div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>
