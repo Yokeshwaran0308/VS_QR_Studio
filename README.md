@@ -37,13 +37,6 @@ Create personalized QR codes using your own brand logo.
 
 "🚀 Visit VS QR STUDIO" (https://vs-qr-studio.onrender.com/)
 
-👨‍💻 Developer
-
-V.S. Yokeshwaran
-
-B.Sc Computer Science Student
-Python & Web Development
-
 🎯 Project Objective
 
 To build a simple and accessible QR code generation platform that helps users create personalized QR codes for sharing information, websites and digital content.
